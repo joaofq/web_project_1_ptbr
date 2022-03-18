@@ -6,7 +6,7 @@
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -14,6 +14,25 @@
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
+}
+
+.logo {
+  background-image: url(/images/logo_place_header.png);
+}
+
+.logo_place_header {
+}
+
+.header__title {
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
