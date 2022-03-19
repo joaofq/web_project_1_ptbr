@@ -13,26 +13,65 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
   /* parameters for the header section */
 }
 
 .logo {
-  background-image: url(/images/logo_place_header.png);
+  position: absolute;
+  z-index: 1;
 }
 
 .logo_place_header {
+  margin-top: 30px;
+  margin-left: 64px;
+  width: 154px;
+  height: 31px;
 }
 
 .header__title {
+  width: 730px;
+  margin-left: 64px;
+  align-self: center;
+  z-index: 1;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
 }
 
 .header__subtitle {
+  width: 388px;
+  margin-left: 64px;
+  margin-bottom: 30px;
+  position: absolute;
+  bottom: 0;
+  lef: 0;
+  z-index: 1;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.header__link {
+}
+
+.header__main-illustration {
+  width: 756px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.header__square {
+  background-color: #2f80ed;
+  width: 568px;
+  height: 568px;
+  margin-top: 64px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
