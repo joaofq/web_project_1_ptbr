@@ -14,8 +14,6 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
-  margin-bottom: 100px;
-
   /* parameters for the header section */
 }
 
@@ -89,7 +87,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
 .description {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  padding: 100px 0;
 }
 
 .two-columns {
@@ -133,7 +131,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
 
 .digits {
   width: 100%;
-  margin-bottom: 100px;
+  padding: 100px 0; /*Se colocar o padding de 100px ta somando com o da sessão anterior*/
 }
 
 .section-title {
@@ -149,7 +147,6 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   width: 60%;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 60px;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -162,12 +159,12 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 60px;
 }
 
 .table__cell {
   width: 250px;
   list-style: none;
+  margin-top: 60px;
 }
 
 .table__heading {
@@ -184,14 +181,6 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   font-weight: normal;
 }
 
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 /*SECTION FEYNMAN*/
 
 .feynman {
@@ -205,6 +194,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  padding: 100px 0; /*Se colocar o padding de 100px ta somando com o da sessão anterior*/
 }
 
 .feynman__title {
@@ -229,4 +219,47 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   font-weight: normal;
   right: 48px;
   top: 50%;
+}
+
+/*SECTION KAUFMAN*/
+
+.kaufman {
+  background-color: #000000;
+  padding: 90px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-title_theme_dark {
+  color: white;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  width: 60%;
+  margin-bottom: 0;
+}
+
+.table_theme_dark {
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* including elements with key-value modifiers */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.kaufman__triangle {
+  width: 660px;
+  height: 636px;
+  position: absolute;
+  right: -124px;
+  top: 0;
 }
