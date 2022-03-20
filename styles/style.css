@@ -14,6 +14,8 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
+  margin-bottom: 100px;
+
   /* parameters for the header section */
 }
 
@@ -85,9 +87,9 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
 /*CONFIGURAÇÃO DA SECTION DESCRIPTION*/
 
 .description {
-  margin-top: 100px;
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
 .two-columns {
@@ -130,8 +132,8 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
 /*SECTION DIGITS*/
 
 .digits {
-  margin-top: 100px;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -193,7 +195,6 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
 /*SECTION FEYNMAN*/
 
 .feynman {
-  margin-top: 100px;
   height: 790px;
   position: relative;
   background-image: url("../images/feynman.png");
