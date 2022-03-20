@@ -189,3 +189,43 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   margin-right: 0;
   margin-top: 80px;
 }
+
+/*SECTION FEYNMAN*/
+
+.feynman {
+  margin-top: 100px;
+  height: 790px;
+  position: relative;
+  background-image: url("../images/feynman.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feynman__title {
+  width: 775px;
+  text-align: center;
+  height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.feynman__subtitle {
+  line-height: 1.15;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  /*line-height: 51; SE EU COLOCO O LINE-HEIGH NÃO DÁ CERTO O POSICIONAMENTO*/
+  font-size: 36px;
+  font-weight: normal;
+  right: 48px;
+  top: 50%;
+}
