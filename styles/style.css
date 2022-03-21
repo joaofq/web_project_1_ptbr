@@ -280,16 +280,14 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   margin: 0 auto;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: red;
 }
 
 .footer__column_content_copyright {
   flex-basis: 771px;
-  display: flex;
+  min-height: 350px;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-  background-color: blue;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo__place_footer {
@@ -299,4 +297,44 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
 
 .footer__author {
   padding: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_about {
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__list {
+  padding: 0;
+  list-style: none;
+}
+
+.footer__column-link {
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social-icons {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
