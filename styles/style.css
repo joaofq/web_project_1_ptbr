@@ -45,15 +45,13 @@
   margin-bottom: 30px;
   position: absolute;
   bottom: 0;
-  lef: 0;
   z-index: 1;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
 
-.header__link {
-}
+/*.header__link {}  -> Não usei essa classe */
 
 .header__main-illustration {
   width: 756px;
@@ -82,7 +80,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   width: 568px;
 }
 
-/*CONFIGURAÇÃO DA SECTION DESCRIPTION*/
+/*SECTION DESCRIPTION*/
 
 .description {
   display: flex;
@@ -302,8 +300,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   font-weight: normal;
 }
 
-.footer__column_content_about {
-}
+/*.footer__column_content_about { } -> Não usei essa classe */
 
 .footer__column-heading {
   margin-bottom: 20px;
