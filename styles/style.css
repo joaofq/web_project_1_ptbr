@@ -131,7 +131,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
 
 .digits {
   width: 100%;
-  padding: 100px 0; /*Se colocar o padding de 100px ta somando com o da sessão anterior*/
+  /*   padding: 100px 0; Se colocar o padding de 100px ta somando com o da sessão anterior*/
 }
 
 .section-title {
@@ -194,7 +194,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  padding: 100px 0; /*Se colocar o padding de 100px ta somando com o da sessão anterior*/
+  /* padding: 100px 0; Se colocar o padding de 100px ta somando com o da sessão anterior*/
 }
 
 .feynman__title {
