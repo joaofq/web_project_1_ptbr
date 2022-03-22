@@ -199,7 +199,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
 .feynman__title {
   width: 775px;
   text-align: center;
-  height: 1.15;
+  line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   margin-bottom: 70px;
