@@ -188,6 +188,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 867px 637px;
+  background-color: #f2f2f2;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -217,12 +218,13 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
   font-weight: normal;
   right: 48px;
   top: 50%;
+  color: #2f80ed;
 }
 
 /*SECTION KAUFMAN*/
 
 .kaufman {
-  background-color: #000000;
+  background-color: #1f1f1f;
   padding: 90px 0;
   overflow: hidden;
   position: relative;
@@ -265,7 +267,7 @@ NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLA
 /*FOOTER*/
 
 .footer {
-  background-color: #000000;
+  background-color: #1f1f1f;
   padding-top: 60px;
   padding-bottom: 40px;
   min-height: 350px;
