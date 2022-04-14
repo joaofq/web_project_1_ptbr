@@ -82,9 +82,6 @@
   z-index: 1;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements 
-NÃO ENTENDI PORQUE DESSA CLASSE PIC SE PODEMOS TER HEIGHT E WIDTH DIRETO NA CLASSE HEADER__SQUARE.
-*/
 .header__square-pic {
   height: 568px;
   width: 568px;
