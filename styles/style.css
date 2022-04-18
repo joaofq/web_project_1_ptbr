@@ -336,9 +336,13 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style: none;
-  text-decoration: none;
+}
+
+/*Ao jogar classe dos links para a li, tive que criar o apontamento abaixo pois o brief não prevê uma classe específica para o item*/
+.footer__column-link a {
+  margin: 0;
   color: white;
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 10px;
