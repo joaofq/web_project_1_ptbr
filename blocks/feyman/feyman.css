@@ -12,29 +12,3 @@
   flex-direction: column;
   padding-top: 100px;
 }
-
-.feynman__title {
-  width: 775px;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bold;
-  margin-bottom: 70px;
-}
-
-.feynman__subtitle {
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-}
-
-.feynman__link {
-  position: absolute;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  right: 48px;
-  top: 50%;
-  color: #2f80ed;
-  text-decoration: none;
-}
