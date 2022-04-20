@@ -18,4 +18,4 @@ Para elaborar este projeto, utilizei as seguintes tecnologias:
 
 ### 3. Organização de arquivos
 
-Os arquivos foram organizados através do método BEM
+Os arquivos foram organizados através do método BEM - Nest

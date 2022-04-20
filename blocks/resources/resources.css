@@ -3,15 +3,3 @@
   padding-bottom: 217px;
   margin: 0 auto;
 }
-
-.resources__logo-zone {
-  margin-top: 80px;
-  max-width: 1100px;
-  display: flex;
-  list-style: none;
-}
-
-.resources__logo {
-  margin: 0 auto;
-  width: 270px;
-}
