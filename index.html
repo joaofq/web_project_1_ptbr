@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aprendendo a aprender</title>
   <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body>
@@ -15,17 +15,13 @@
       <img src="./images/logo_place_header.png" class="logo logo_place_header" alt="Yandex Logo">
       <h1 class="header__title">Aprendendo a aprender</h1>
       <h2 class="header__subtitle">
-        As técnicas de aprendizado mais eficazes que você pode aplicar ao seu cotidiano.<a href="#" class="header__link">Saiba mais →</a>
-      </h2>
-      <!--
-        OBS: Deixei desse forma pois se eu tiro o "saiba mais" de dentro do <H2></H2> sem um container que envolva ambos os elementos, o "saiba mais" desconfigura o posicionamento e vai lá pra cima da página. Não deu certo da forma sugerida:
-      <h2 class="header__subtitle">
         As técnicas de aprendizado mais eficazes que você pode aplicar ao seu cotidiano.
+
+        <a href="#" class="header__link">Saiba mais →
+        </a>
       </h2>
-      <p class="header__link"><a href="#">Saiba mais →</a></p>
-    -->
       <img src="./images/header-image.png" class="header__main-illustration" alt="Homem na pedra, pensando sobre novas formas de aprendizado">
-      <div class="header__square"></div>
+      <div class="header__square rotation"></div>
     </header>
 
     <main class="content">
@@ -44,6 +40,84 @@
             </p>
           </div>
         </div>
+      </section>
+
+      <section class="techniques">
+        <h2 class="section-title">Aprender Técnicas</h2>
+        <h3 class="section-subtitle">As Cinco estratégias de Barbara Oakley</h3>
+        <ul class="cards">
+          <li class="cards__item">
+            <img src="./images/cards-attention.png" class="cards__image" alt="Livro">
+            <h4 class="cards__title">
+              As Duas Maneiras de Pensar
+            </h4>
+            <p class="cards__description">
+              Uma compreensão profunda surge da capacidade de alternar entre o pensamento difuso e o focado.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-recall.png" class="cards__image" alt="Estátua recordando">
+            <h4 class="cards__title">Recordar</h4>
+            <p class="cards__description">
+              Melhorar sua capacidade de para recordar pequenas informações importantes ajuda a conectar diferentes partes do cérebro.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-interleaving.png" class="cards__image" alt="Intercalar habilidades">
+            <h4 class="cards__title">Intercalar</h4>
+            <p class="cards__description">
+              Quando você aprende diferentes habilidades ao mesmo tempo, elas fortalecem umas às outras.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-question.png" class="cards__image" alt="Homem em sala com várias portas">
+            <h4 class="cards__title">Questões</h4>
+            <p class="cards__description">
+              Quando estiver escutando seu professor, pense em uma boa pergunta, algo que você realmente gostaria de saber.
+            </p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-competence.png" class="cards__image" alt="mão segurando livros">
+            <h4 class="cards__title">
+              Ilusão da Competência
+            </h4>
+            <p class="cards__description">
+              Teste a si mesmo, anote, fale com outra pessoa e repita o processo de diferentes situações. Somente assim você vai ter certeza de que entendeu alguma coisa.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title">
+          Conversas TED
+        </h2>
+        <h3 class="section-subtitle">
+          Para os amantes da procrastinação
+        </h3>
+        <div class="video__iframes">
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__iframe"></iframe>
+          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video__iframe"></iframe>
+        </div>
+      </section>
+
+      <section class="oakley">
+        <div class="two-columns">
+          <h2 class="two-columns__brief">A história de Barbara Oakley</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">
+              A matemática não veio naturalmente para Barbara na infância. Ela se identificava mais com ciências humanas, e que não era muito brilhante nisso. Com o objetivo de se especializar em linguística, após terminar seus estudos, ela se alistou no Exército, que a enviou para aprender russo. Após vários anos de serviço, tornando-se capitã, Barbara deixou o Exército e decidiu estudar engenharia. Foi nesta época que ela desenvolveu a metodologia de aprendizagem, pois precisou reprogramar seu cérebro para um tipo diferente de aprendizagem. Quando algo não ocorre naturalmente, então é preciso trabalhar duro para obter o conhecimento que outras pessoas podem obter rapidamente, dando assim uma visão mais profunda e abrangente do assunto.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">A Técnica de Feynman</h2>
+        <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
+        <a href="#" class="feynman__link">
+          <p>Mais →</p>
+        </a>
       </section>
 
       <section class="digits">
@@ -106,14 +180,25 @@
           </li>
         </ul>
       </section>
+      <section class="khan">
+        <div class="khan__container">
+          <h3 class="khan__author">Salman Khan</h3>
+          <h2 class="khan__title">The One World Schoolhouse</h2>
+          <p class="khan__quote">
+            A paixão e inovação de Sal Khan é transformar o aprendizado para milhões de estudantes no mundo todo. O livro The One World Schoolhouse é uma leitura obrigatória para quem quer melhorar a educação e que os estudantes habilidades e conhecimentos necessários na escola, na carreira, e na vida em geral.
+          </p>
+          <p class="khan__quote-author">Geroge Lucas</p>
+          <p class="khan__quote-author-subline">Diretor</p>
+          <div class="khan__book-container">
+            <img src="./images/khan-book-2.png" alt="Livro de Khan" class="khan__book-pic">
+            <a href="#" class="khan__buy-link">Comprar →</a>
 
-      <section class="feynman">
-        <h2 class="feynman__title">A Técnica de Feynman</h2>
-        <h3 class="feynman__subtitle">Aprender sem esquecer</h3>
+          </div>
 
-        <p class="feynman__link"><a href="#">Mais →</a></p>
+        </div>
 
       </section>
+
 
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Dez princípios para adquirir habilidades de forma rápida
@@ -181,7 +266,33 @@
             </p>
           </li>
         </ul>
-        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle" alt="A big blue triangle, over which Josh Kaufman claims ownership">
+        <img src="./images/kaufman-triangle.svg" class="kaufman__triangle rotation" alt="A big blue triangle, over which Josh Kaufman claims ownership">
+      </section>
+      <section class="resources">
+        <h2 class="section-title">Recursos úteis</h2>
+        <h3 class="section-subtitle">Material adicional sobre técnicas e hacks de aprendizagem</h3>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href="#">
+              <img src="./images/logo/resources-tedED.png" alt="logo TED" class="resources__logo">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/logo/resources-Medium.png" alt="logo TED" class="resources__logo">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/logo/resources-dezeen.png" alt="logo TED" class="resources__logo">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/logo/resources-goodreads.png" alt="logo TED" class="resources__logo">
+            </a>
+          </li>
+        </ul>
       </section>
 
     </main>
