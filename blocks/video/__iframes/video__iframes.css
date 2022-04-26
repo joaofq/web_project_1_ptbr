@@ -1,3 +1,6 @@
 .video__iframes {
-  text-align: center;
+  margin: 30px 0 auto; /* Descontando o position relative/margin botton do iframe (20) */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }

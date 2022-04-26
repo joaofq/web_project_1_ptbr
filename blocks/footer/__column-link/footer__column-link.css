@@ -12,3 +12,8 @@
   align-items: center;
   gap: 10px;
 }
+
+.footer__column-link:hover {
+  opacity: 0.1;
+  transition: 0.2s linear;
+}
