@@ -14,7 +14,7 @@ Para elaborar este projeto, utilizei as seguintes tecnologias:
   - Tags semânticas
 - **CSS**
   - Flexbox
-  - Animações
+  - Animações com css
 
 ### 3. Organização de arquivos
 
